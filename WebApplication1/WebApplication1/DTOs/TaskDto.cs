@@ -13,15 +13,3 @@ public class TaskDTO
     public int IdAssignee { get; set; }
     public AssigneeDTO Assignee { get; set; }
 }
-
-public class ReporterDTO
-{
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-}
-
-public class AssigneeDTO
-{
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-}
